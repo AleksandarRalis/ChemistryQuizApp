@@ -1,0 +1,16 @@
+@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Chemistry Quiz</PageTitle>
+
+<div class="home-page">
+    <h1 class="welcome-heading">Welcome to our Chemistry Quiz</h1>
+    <a href="#" class="btn-start" @onclick="OnStartPlaying" @onclick:preventDefault>Start Playing</a>
+</div>
+
+@code {
+    private void OnStartPlaying()
+    {
+        // TODO: Navigate to quiz when we add that page
+    }
+}
