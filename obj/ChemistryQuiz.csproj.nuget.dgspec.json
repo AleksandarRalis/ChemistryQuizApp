@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/ChemistryQuiz.csproj": {}
+    "/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/ChemistryQuiz.csproj": {}
   },
   "projects": {
-    "/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/ChemistryQuiz.csproj": {
+    "/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/ChemistryQuiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/ChemistryQuiz.csproj",
+        "projectUniqueName": "/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/ChemistryQuiz.csproj",
         "projectName": "ChemistryQuiz",
-        "projectPath": "/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/ChemistryQuiz.csproj",
+        "projectPath": "/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/ChemistryQuiz.csproj",
         "packagesPath": "/home/aleksandar/.nuget/packages/",
-        "outputPath": "/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/obj/",
+        "outputPath": "/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/aleksandar/.nuget/NuGet/NuGet.Config"

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChemistryQuiz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38c27634e70d79d97c38996bd4072bd686753fce")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChemistryQuiz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChemistryQuiz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

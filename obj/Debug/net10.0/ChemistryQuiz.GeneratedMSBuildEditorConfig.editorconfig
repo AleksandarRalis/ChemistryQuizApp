@@ -19,29 +19,29 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = ChemistryQuiz
 build_property.RootNamespace = ChemistryQuiz
-build_property.ProjectDir = /home/aleksandar/Projects/DotNetApps/ChemistryQuiz/
+build_property.ProjectDir = /home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/aleksandar/Projects/DotNetApps/ChemistryQuiz
+build_property.MSBuildProjectDirectory = /home/aleksandar/Projects/DotNetApps/ChemistryQuizNew
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/Components/App/App.razor]
+[/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/Components/App/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAvQXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/Components/Layout/MainLayout.razor]
+[/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/Components/Pages/Home/Home.razor]
+[/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/Components/Pages/Home/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lL0hvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/aleksandar/Projects/DotNetApps/ChemistryQuiz/Components/_Imports.razor]
+[/home/aleksandar/Projects/DotNetApps/ChemistryQuizNew/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

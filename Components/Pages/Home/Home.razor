@@ -1,16 +1,46 @@
 @page "/"
 @rendermode InteractiveServer
+@inject HttpClient Http
+@inject NavigationManager Navigation
 
 <PageTitle>Chemistry Quiz</PageTitle>
 
 <div class="home-page">
     <h1 class="welcome-heading">Welcome to our Chemistry Quiz</h1>
-    <a href="#" class="btn-start" @onclick="OnStartPlaying" @onclick:preventDefault>Start Playing</a>
+    <a href="#" class="btn-start" @onclick="OnStartPlaying" @onclick:preventDefault disabled="@_loading">Start Playing</a>
+    @if (_loading)
+    {
+        <p class="loading">Loading questions…</p>
+    }
+    @if (_error is not null)
+    {
+        <p class="error">@_error</p>
+    }
 </div>
 
 @code {
-    private void OnStartPlaying()
+    private bool _loading;
+    private string? _error;
+
+    private async Task OnStartPlaying()
     {
-        // TODO: Navigate to quiz when we add that page
+        _loading = true;
+        _error = null;
+        try
+        {
+            var baseUri = new Uri(Navigation.BaseUri);
+            var requestUri = new Uri(baseUri, "api/Questions/level/One");
+            var response = await Http.GetAsync(requestUri);
+            response.EnsureSuccessStatusCode();
+            // TODO: use questions (e.g. navigate to quiz page with data)
+        }
+        catch (Exception ex)
+        {
+            _error = "Could not load questions. Please try again.";
+        }
+        finally
+        {
+            _loading = false;
+        }
     }
 }
